@@ -131,3 +131,10 @@ h2.movieTitle {
   margin-top: 0em;
   font-size: 2rem;
 }
+
+.sortingButton {
+  border-color: black;
+  border-width: 5px;
+  border-radius: 20px;
+  padding: 6px;
+}

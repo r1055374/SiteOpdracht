@@ -13,9 +13,29 @@ function addMovie(titel, korteDesc, score, director) {
   document.querySelector("section.films").appendChild(filmArtikel);
 }
 
+function sort() {
+  /*Empty for now*/
+}
+
 addMovie(
   "Iron Man",
   "A man gets gravely wounded and decides to escape and from that moment onward decides to do no harm and makes a suit of armor to protect others.",
   "85",
   "Jon Favreau"
 );
+
+addMovie(
+  "Iron Man",
+  "A man gets gravely wounded and decides to escape and from that moment onward decides to do no harm and makes a suit of armor to protect others.",
+  "70",
+  "Jon Favreau"
+);
+
+addMovie(
+  "Iron Man",
+  "A man gets gravely wounded and decides to escape and from that moment onward decides to do no harm and makes a suit of armor to protect others.",
+  "90",
+  "Jon Favreau"
+);
+
+sort();

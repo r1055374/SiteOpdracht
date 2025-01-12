@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -21,13 +21,18 @@
         </nav>
       </div>
     </header>
-    <div class="wrapper">
-      <h1>Hier staat de titel</h1>
+    <main>
       <div class="wrapper">
-        <button class="sortingButton">Sorteer via score</button>
+        <h1>Marvel Movies</h1>
+        <div class="wrapper">
+          <button class="sortingButton" onclick="sort()">
+            Sorteer via score
+          </button>
+        </div>
+        <p id="geenfilms">Er zijn nog geen films toegevoegd.</p>
+        <section class="films"></section>
       </div>
-      <p id="geenfilms">Er zijn nog geen films toegevoegd.</p>
-      <section class="films"></section>
-    </div>
+    </main>
+    <footer></footer>
   </body>
 </html>
